@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{130AF16E-D3F4-4DC1-9F09-22253A2EEB5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\ACogburn-Profile-Picture.jpg = ..\ACogburn-Profile-Picture.jpg
+		..\index.html = ..\index.html
+		..\style.css = ..\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220278A9-8CE9-4BEE-B1C3-245B77C53A92}
+	EndGlobalSection
+EndGlobal
