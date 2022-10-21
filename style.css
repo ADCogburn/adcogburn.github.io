@@ -55,3 +55,14 @@ li a {
     margin-top: 20px;
     padding-right: 10px;
 }
+.bio {
+    background-image: url("./Houston_ACogburn.jpg");
+    background-size: contain;
+    overflow: hidden;
+    width: 1400px;
+    height: 800px;
+}
+
+.project-odd {
+    display: block;
+}
