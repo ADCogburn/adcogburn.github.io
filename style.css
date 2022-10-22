@@ -27,12 +27,25 @@ body
     font-family: Georgia, serif;
     margin: 0px;
 }
+
+h2 {
+    font-family: Garamond, serif;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
 h1 {
     font-family: Garamond, serif;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+li {
+    font-family: Garamond, serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    list-style: none;
 }
 .breadcrumb{
     text-align: right;
@@ -61,8 +74,19 @@ li a {
     overflow: hidden;
     width: 1400px;
     height: 800px;
+    opacity: 60%;
 }
 
-.project-odd {
+
+div {
     display: block;
+}
+div.bio-text {
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 1rem;
+    line-height: 2.5rem;
 }
