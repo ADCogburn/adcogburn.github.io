@@ -8,26 +8,20 @@
     background: transparent;
     box-sizing: border-box;
 }
-nav {
+
+header {
     width: 100%;
     min-height: 2.5rem;
     max-height: auto;
     max-width: auto;
     background-color: grey;
 }
-div img {
-    position: absolute;
-    border: 1px solid black;
-    overflow: visible;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
+
+.a {
+    background-image: url("./AC_Logo_Placeholder.jpg")
 }
-#logo {
-    margin-left:10px;
-}
-body
-{
+
+body {
     background-color: #EEEEEE;
     font-family: Georgia, serif;
     margin: 0px;
@@ -39,12 +33,14 @@ h2 {
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
 h1 {
     font-family: Garamond, serif;
     font-size: 2.5rem;
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
 li {
     font-family: Garamond, serif;
     font-size: 1.5rem;
@@ -52,19 +48,22 @@ li {
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     list-style: none;
 }
-.breadcrumb{
+
+.breadcrumb {
     text-align: right;
 }
 
-.breadcrumb li+li::before{
-    content: "/";
-    margin: 2px;
-}
-.breadcrumb li{
-    list-style: none;
-    display: inline;
-    margin: 10px;
-}
+    .breadcrumb li + li::before {
+        content: "/";
+        margin: 2px;
+    }
+
+    .breadcrumb li {
+        list-style: none;
+        display: inline;
+        margin: 10px;
+    }
+
 li a {
     font-family: Georgia, serif;
     font-size: 20px;
@@ -73,6 +72,7 @@ li a {
     margin-top: 20px;
     padding-right: 10px;
 }
+
 .bio {
     background-image: url("./Houston_ACogburn.jpg");
     background-size: 100%;
@@ -89,6 +89,7 @@ li a {
 div.bio {
     display: block;
 }
+
 div.bio-text {
     top: 30%;
     left: 10%;
