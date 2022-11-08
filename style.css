@@ -16,14 +16,7 @@ header {
     max-width: auto;
     background-color: grey;
 }
-div.logo {
-    width: 10px;
-    height: 10px;
-    border: 2px solid red;
-    z-index: 1;
-    display: inline;
-    
-}
+
 .a {
     background-image: url("./AC_Logo_Placeholder.jpg")
 }
@@ -82,14 +75,16 @@ li a {
 
 .bio {
     background-image: url("./Houston_ACogburn.jpg");
-    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     width: 100%;
     height: 800px;
     opacity: 60%;
-    left: 0;
-    right: 0;
-    margin: 0;
 }
 
 
@@ -111,6 +106,10 @@ div.project-odd, div.project-even {
     border-top: 2px solid rgba(0, 0, 0, 0.8);
     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
     background-color: rgba(214, 226, 245, 0.35);
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
     padding: 1rem;
     line-height: 2.5rem;
 }
