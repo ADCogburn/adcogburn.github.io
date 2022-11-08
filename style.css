@@ -16,7 +16,14 @@ header {
     max-width: auto;
     background-color: grey;
 }
-
+div.logo {
+    width: 10px;
+    height: 10px;
+    border: 2px solid red;
+    z-index: 1;
+    display: inline;
+    
+}
 .a {
     background-image: url("./AC_Logo_Placeholder.jpg")
 }
@@ -49,16 +56,16 @@ li {
     list-style: none;
 }
 
-.breadcrumb {
+.quick-links {
     text-align: right;
 }
 
-    .breadcrumb li + li::before {
+    .quick-links li + li::before {
         content: "/";
         margin: 2px;
     }
 
-    .breadcrumb li {
+    .quick-links li {
         list-style: none;
         display: inline;
         margin: 10px;
