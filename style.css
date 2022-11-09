@@ -11,6 +11,7 @@
 
 html {
     font-size: 16px;
+    background-color: white;
 }
 
 header {
@@ -35,26 +36,35 @@ header {
 
 .quick-links {
     display: flex;
-    text-align: right;
-    justify-content: right;
-    border: 2px solid red;
+    float: right;
+    align-items: center;
+    height: 100%;
+}
+
+.button{
+    font-family: Georgia, serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 1;
+    padding: 0 1em;
+    border-radius: 10px;
+    color: black;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
     height: 100%;
 }
 
 .quick-links li {
-    border: 2px solid blue;
-    text-align: center;
-    list-style: none;
-    display: inline;
-    margin: 10px;
-    font-family: 
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5px 0.5px rgba(0, 0, 0, 0.8);
 }
-
-.quick-links li + li::before {
-    content: "/";
-    margin: 2px;
-}
-
 
 body {
     background-color: #EEEEEE;
@@ -84,15 +94,6 @@ li {
     list-style: none;
 }
 
-li a {
-    font-family: Georgia, serif;
-    font-size: 20px;
-    text-decoration: none;
-    opacity: 1;
-    margin-top: 20px;
-    padding-right: 10px;
-}
-
 .bio {
     background-image: url("./Houston_ACogburn.jpg");
     background-position: center;
@@ -107,12 +108,11 @@ li a {
     opacity: 60%;
 }
 
-
-div.bio {
+.bio {
     display: block;
 }
 
-div.bio-text {
+.bio-text {
     top: 30%;
     left: 10%;
     position: absolute;
@@ -122,20 +122,19 @@ div.bio-text {
     line-height: 2.5rem;
 }
 
-div.project-odd, div.project-even {
-    border-top: 2px solid rgba(0, 0, 0, 0.8);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
-    background-color: rgba(214, 226, 245, 0.35);
+.project {
     display: flex;
-    height: 200px;
-    justify-content: center;
-    align-content: center;
+    height: 18rem;
     padding: 1rem;
+    margin: 1rem;
+    line-height: 2.5rem;
+    border: 2px solid  green;
+}
+
+.even {
     line-height: 2.5rem;
 }
 
-div.project-even {
-    background-color: rgba(128, 128, 128, 0.35);
-    padding: 1rem;
-    line-height: 2.5rem;
+.project h2 {
+    border: 2px solid brown;
 }
