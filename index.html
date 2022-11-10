@@ -24,7 +24,7 @@
 
         <body>
             <div id="about" class="bio">
-                <div class="bio-text">
+                <div class="bio-container">
                     <h1>Software Developer</h1>
                     <h2>From Houston, Texas</h2>
                     <h2>Specializing in Web Design and Backend using C#.</h2>
@@ -33,24 +33,32 @@
                         <li>HTML/CSS</li>
                         <li>JavaScript</li>
                         <li>C#</li>
-                        <li>MySQL</li>
+                        <li>SQL</li>
                     </ul>
                 </div>
             </div>
-            <div id="project-beginning" class="project odd">
-                <h2>Greek Word-Finder</h2>
-                <p>App that finds all available words from a set of letters. Made for elementary Greek teacher in order to fine tune a spelling curriculum for Greek.</p>
-                <img src="Placeholder.jpg" class="Word-Finder">
-            </div>
-            <div class="project even">
-                <img src="Placeholder.jpg" class="GreekWebsite">
-                <h2>Greek CI Website</h2>
-                <p>Website for Greek CI material, including e-commerce.</p>
-            </div>
-            <div class="project odd">
-                <h2>Future project</h2>
-                <p>Improved company's back-end to provide quicker load time and more reliable packet transfer.</p>
-                <img src="Placeholder.jpg" class="unknownProject">
+                <div class="projects">
+                <div id="project-beginning" class="project odd">
+                    <div class="ptext"><h2>Greek Word-Finder</h2>
+                    <p>App that finds all available words from a set of letters. Made for elementary Greek teacher in order to fine tune a spelling curriculum for Greek.</p>
+                    <ul class="skills-container">
+                        <li id='wd1' class="skills">Web Design</li>
+                        <li id='js1' class="skills">JavaScript</li>
+                        <li id='cs1' class="skills">C#</li>
+                        <li id='sql1' class="skills">SQL</li>
+                    </ul></div>
+                    <div class="img-odd"><img src="Placeholder.jpg" class="Word-Finder"></div>
+                </div>
+                <div class="project even">
+                    <div class="img-even"><img src="Placeholder.jpg" class="GreekWebsite"></div>
+                    <div class="ptext"><h2>Greek CI Website</h2>
+                    <p>Website for Greek CI material, including e-commerce.</p></div>
+                </div>
+                <div class="project odd">
+                    <div class="ptext"><h2>Future project</h2>
+                    <p>Improved company's back-end to provide quicker load time and more reliable packet transfer.</p></div>
+                    <div class="img-odd"><img src="Placeholder.jpg" class="unknownProject"></div>
+                </div>
             </div>
         </body>
 

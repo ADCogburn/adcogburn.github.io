@@ -18,6 +18,9 @@ header {
     width: 100%;
     height: 2.5rem;
     background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
 }
 
 .logo {
@@ -104,16 +107,12 @@ li {
     align-items: center;
     overflow: hidden;
     width: 100%;
-    height: 800px;
+    height: 60rem;
     opacity: 60%;
 }
 
-.bio {
-    display: block;
-}
-
-.bio-text {
-    top: 30%;
+.bio-container {
+    top: 20%;
     left: 10%;
     position: absolute;
     border: 2px solid rgba(0, 0, 0, 0.8);
@@ -122,19 +121,51 @@ li {
     line-height: 2.5rem;
 }
 
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid orange;
+}
+
 .project {
     display: flex;
     height: 18rem;
+    flex-direction:
+    width: 40rem;
     padding: 1rem;
-    margin: 1rem;
+    margin: 1.5rem 0rem;
     line-height: 2.5rem;
-    border: 2px solid  green;
+    border: 2px solid green;
 }
 
-.even {
-    line-height: 2.5rem;
+.ptext p {
+    border: 2px solid salmon;
+}
+
+.skills {
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-shadow: none;
+    opacity: 1;
+    padding: 0 1em;
+    margin: 0.6em;
+    height: 1.2em;
+    color: black;
+    background-color: lightgrey;
+    display: flex;
+    float: left;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.8);
 }
 
 .project h2 {
     border: 2px solid brown;
+}
+
+#js1 {
+    background-color: rgba(246, 246, 246, 0.5)
 }
