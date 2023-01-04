@@ -3,8 +3,19 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
     vertical-align: baseline;
     background: transparent;
     box-sizing: border-box;
+}
+
+header {
+    border-bottom: 2px dashed red;
+}
+
+.container {
+    border: 2px solid green;
+}
+
+.bio-text {
+    width: 50ch;
 }
