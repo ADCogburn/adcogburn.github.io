@@ -178,19 +178,20 @@ border-radius: 5px;
 }
 
 #about, #projects, #skills {
-margin: 80px auto;
-position: relative;
-top: 75px;
-padding: 20px;
-min-width: 20rem;
-border-radius: 5px;
-border: 1px solid var(--clr-drk-green)
+  margin: 80px auto;
+  position: relative;
+  top: 75px;
+  padding: 20px;
+  min-width: 20rem;
+  border-radius: 5px;
+  border: 1px solid var(--clr-drk-green);
+  box-sizing: border-box;
 }
 
 #about {
-width: 80%;
-min-height: 400px;
-padding-top: 50px;
+  width: 80%;
+  min-height: 400px;
+  padding-top: 50px;
 }
 
 #projects, #skills {
